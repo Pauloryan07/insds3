@@ -12,8 +12,8 @@ return new class extends Migration
 
    public function up(): void
     {
-        // Alterado para 'freefires'
-        Schema::create('freefires', function (Blueprint $table) {
+     
+        Schema::create('freefire', function (Blueprint $table) {
             $table->id();
             $table->string('nick');
             $table->string('player_id'); 
@@ -23,7 +23,7 @@ return new class extends Migration
 
     public function down(): void
     {
-        // Garanta que aqui também seja 'freefires'
+
         Schema::dropIfExists('freefires');
     }
 };

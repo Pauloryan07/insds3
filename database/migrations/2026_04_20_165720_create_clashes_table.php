@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
 {
-    Schema::create('clashes', function (Blueprint $table) {
-        $table->id(); // ID do Banco (não mexa)
+    Schema::create('clash', function (Blueprint $table) {
+        $table->id();
         $table->string('nick');
-        $table->string('player_id'); // Mudei de 'id' para 'player_id'
+        $table->string('player_id');
         $table->timestamps();
     });
 }
