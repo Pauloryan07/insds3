@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Inscreva-se</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+<link rel="icon" href="/images/logo.png" type="">
 <script>
 </script>
 <style>
@@ -16,9 +17,9 @@
 <body class="bg-white text-gray-900 min-h-screen leading-relaxed">
 
 <!-- NAV -->
-<nav class="flex items-center justify-between px-12 py-5 border-b border-gray-300 bg-white sticky top-0 z-10">
+<nav class="flex items-center justify-between px-12 rounded-[90px]  py-5 border-b border-gray-300 bg-white sticky top-0 z-10">
   <div class="font-serif text-2xl text-green-800 tracking-tight">
-    <img src="" alt="">
+    <img class="w-[60px] ml-10" src="/images/logo.png" alt="">
   </div>
   <ul class="flex gap-8 list-none">
     <li><a href="#" class="no-underline text-sm font-normal text-gray-700 hover:text-green-600 transition-colors duration-200">Início</a></li>
@@ -48,7 +49,7 @@
     </p>
     <div class="flex gap-4 items-center flex-wrap">
       <a href="#" class="bg-green-600 hover:bg-green-800 text-white px-8 py-3 rounded-full text-sm font-medium no-underline transition-all duration-200 hover:-translate-y-px">
-        Criar conta grátis
+        Inscrever-se →
       </a>
       <a href="#" class="text-gray-700 hover:text-green-600 text-sm font-normal no-underline flex items-center gap-1.5 transition-colors duration-200">
         Saiba mais <span class="text-lg">→</span>
@@ -57,33 +58,7 @@
   </div>
 
   <div class="flex justify-center items-center">
-    <div class="bg-white border border-gray-300 rounded-lg p-8 w-80 shadow-card">
-      <div class="mb-6">
-        <h3 class="font-serif text-xl text-gray-900 mb-1">Crie sua conta</h3>
-        <p class="text-xs text-gray-500">Grátis para sempre no plano básico</p>
-      </div>
-      <div class="mb-4">
-        <label class="block text-xs font-medium text-gray-700 mb-1.5 tracking-wide">Nome completo</label>
-        <input type="text" placeholder="Ana Silva"
-          class="w-full px-3.5 py-2.5 border border-gray-300 rounded-sm text-sm text-gray-900 bg-gray-100 outline-none focus:border-green-400 focus:bg-white transition-colors duration-200 font-sans" />
-      </div>
-      <div class="mb-4">
-        <label class="block text-xs font-medium text-gray-700 mb-1.5 tracking-wide">E-mail</label>
-        <input type="email" placeholder="ana@email.com"
-          class="w-full px-3.5 py-2.5 border border-gray-300 rounded-sm text-sm text-gray-900 bg-gray-100 outline-none focus:border-green-400 focus:bg-white transition-colors duration-200 font-sans" />
-      </div>
-      <div class="mb-4">
-        <label class="block text-xs font-medium text-gray-700 mb-1.5 tracking-wide">Senha</label>
-        <input type="password" placeholder="••••••••"
-          class="w-full px-3.5 py-2.5 border border-gray-300 rounded-sm text-sm text-gray-900 bg-gray-100 outline-none focus:border-green-400 focus:bg-white transition-colors duration-200 font-sans" />
-      </div>
-      <button class="w-full bg-green-600 hover:bg-green-800 text-white py-3 rounded-full text-sm font-medium cursor-pointer font-sans transition-colors duration-200 mt-2 border-none">
-        Criar conta grátis
-      </button>
-      <p class="text-center text-xs text-gray-500 mt-3">
-        Ao continuar, você concorda com os Termos de Uso.
-      </p>
-    </div>
+    
   </div>
 </section>
 
@@ -91,16 +66,16 @@
 <div class="bg-green-50 border-t border-green-100 border-b px-12 py-10">
   <div class="max-w-6xl mx-auto grid grid-cols-3 gap-8 text-center">
     <div>
-      <span class="font-serif text-4xl text-green-800 block mb-1">12 mil+</span>
-      <span class="text-sm text-gray-500 font-light">usuários ativos</span>
+      <span class="font-serif text-4xl text-green-800 block mb-1">Games</span>
+      <span class="text-sm text-gray-500 font-light">jogos</span>
     </div>
     <div>
-      <span class="font-serif text-4xl text-green-800 block mb-1">98%</span>
-      <span class="text-sm text-gray-500 font-light">satisfação dos alunos</span>
+      <span class="font-serif text-4xl text-green-800 block mb-1">Days</span>
+      <span class="text-sm text-gray-500 font-light">dias</span>
     </div>
     <div>
-      <span class="font-serif text-4xl text-green-800 block mb-1">4,9 ★</span>
-      <span class="text-sm text-gray-500 font-light">avaliação média</span>
+      <span class="font-serif text-4xl text-green-800 block mb-1">Tournament</span>
+      <span class="text-sm text-gray-500 font-light">torneio</span>
     </div>
   </div>
 </div>
@@ -148,41 +123,7 @@
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="bg-green-50 border-t border-green-100 px-12 py-20">
-  <div class="max-w-6xl mx-auto">
-    <p class="text-xs font-medium tracking-widest uppercase text-green-600 mb-3">Depoimentos</p>
-    <h2 class="font-serif text-4xl tracking-tight text-gray-900 leading-tight">O que nossos usuários dizem.</h2>
-    <div class="grid grid-cols-2 gap-6 mt-12">
-      <div class="bg-white border border-gray-300 rounded-md p-7">
-        <div class="text-green-400 text-sm mb-3">★★★★★</div>
-        <blockquote class="text-sm text-gray-700 font-light leading-loose mb-5">
-          "A inscrição foi super rápida e o painel é muito limpo. Já recomendei para toda minha equipe."
-        </blockquote>
-        <div class="flex items-center gap-2.5">
-          <div class="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center text-xs font-medium text-green-800">CS</div>
-          <div>
-            <div class="text-sm font-medium text-gray-900">Carla Santos</div>
-            <div class="text-xs text-gray-500">Designer — Recife</div>
-          </div>
-        </div>
-      </div>
-      <div class="bg-white border border-gray-300 rounded-md p-7">
-        <div class="text-green-400 text-sm mb-3">★★★★★</div>
-        <blockquote class="text-sm text-gray-700 font-light leading-loose mb-5">
-          "Finalmente uma plataforma que não me faz perder tempo. Tudo onde precisa estar, sem distrações."
-        </blockquote>
-        <div class="flex items-center gap-2.5">
-          <div class="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center text-xs font-medium text-green-800">RF</div>
-          <div>
-            <div class="text-sm font-medium text-gray-900">Rafael Ferreira</div>
-            <div class="text-xs text-gray-500">Desenvolvedor — São Paulo</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- CTA FINAL -->
 <section>
@@ -194,7 +135,7 @@
       Crie sua conta gratuita agora e descubra como é simples organizar sua trajetória conosco.
     </p>
     <a href="#" class="inline-block bg-green-600 hover:bg-green-800 text-white px-10 py-4 rounded-full text-base font-medium no-underline transition-all duration-200 hover:-translate-y-px">
-      Inscrever-se gratuitamente →
+      Inscrever-se →
     </a>
   </div>
 </section>
